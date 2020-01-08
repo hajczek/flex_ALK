@@ -36,6 +36,12 @@
   flex-wrap: wrap;
 }
 
+.six {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
