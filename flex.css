@@ -70,6 +70,13 @@
   flex-wrap: wrap;
 }
 
+.twelve {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
