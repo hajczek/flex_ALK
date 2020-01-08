@@ -2,7 +2,7 @@
 
 ### Basic exercises with flex
 
-This project show many posibilities how 'flex' can be used.
+This project show many posibilities how 'flex' can be use.
 
 ### To use this project:
 - copy the project
