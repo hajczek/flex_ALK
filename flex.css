@@ -192,6 +192,26 @@
   flex-basis: 300px;
 }
 
+.twenty-nine {
+  display: flex;
+}
+
+.twenty-nine .card:nth-child(6) {
+  display: flex;
+  order: 1;
+}
+
+.twenty-nine .card:nth-child(5) {
+  display: flex;
+  order: 2;
+}
+
+.twenty-nine .card:nth-child(4) {
+  display: flex;
+  order: 3;
+}
+
+
 /* .card {
   display: flex;
   justify-content: center;
