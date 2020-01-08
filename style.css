@@ -22,7 +22,8 @@ header {
   margin-bottom: 40px;
 }
 
-header h1 {
+header h1,
+header h2 {
   color: #0ce97a;
 }
 
