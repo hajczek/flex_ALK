@@ -220,6 +220,15 @@
   flex-grow: 2;
 }
 
+.thirty-one {
+  display: flex;
+}
+
+.thirty-one .card:nth-child(4) {
+  display: flex;
+  flex-shrink: 2;
+}
+
 
 /* .card {
   display: flex;
