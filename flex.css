@@ -151,6 +151,14 @@
   justify-content: center;
 }
 
+.twenty-four {
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
