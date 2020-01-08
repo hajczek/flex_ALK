@@ -53,6 +53,11 @@
   justify-content: center;
 }
 
+.nine {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
