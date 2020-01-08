@@ -42,6 +42,11 @@
   flex-wrap: wrap;
 }
 
+.seven {
+  display: flex;
+  justify-content: center;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
