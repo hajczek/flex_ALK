@@ -42,7 +42,7 @@ p {
   height: 400px;
   width: 70%;
   margin: 0 auto;
-  border: 1px solid red;
+  border: 1px solid #444;
 }
 
 .card {
