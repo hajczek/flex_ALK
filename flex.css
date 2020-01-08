@@ -113,6 +113,13 @@
   height: 500px;
 }
 
+.ninetheen {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
