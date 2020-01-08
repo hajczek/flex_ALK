@@ -18,6 +18,12 @@ header {
   text-align: center;
 }
 
+.box {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
 .card {
   counter-increment: card_number;
   width: 100px;
