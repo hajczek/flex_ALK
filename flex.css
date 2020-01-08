@@ -82,6 +82,17 @@
   justify-content: space-between;
 }
 
+.fourtheen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifteen {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
