@@ -159,6 +159,13 @@
   justify-content: center;
 }
 
+.twenty-five {
+  display: flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
