@@ -47,6 +47,12 @@
   justify-content: center;
 }
 
+.eight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
