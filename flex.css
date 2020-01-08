@@ -120,6 +120,30 @@
   justify-content: space-evenly;
 }
 
+.twenty {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.twenty-one {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.twenty-two {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
