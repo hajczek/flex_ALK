@@ -1,5 +1,5 @@
+/* FLEX OPTIONS:
 
-  /* FLEX OPTIONS:
   display: flex;
   flex-direction: row, column, columnpreverse, row-reverse; (sets main axis)
   flex-wrap: wrap, nowrap;
@@ -7,21 +7,26 @@
   align-content: flex-start; flex-end; center; 
   flex-basis: ; (base size for element)
   flex-grow: ;
-  flex-shrink: ;
-  */
+  flex-shrink: ; (This is working only with sets nowrap!!!)
+  order: ; (Sets the order of elements)
+  
+*/
 
+.one {
+  display: flex;
+}
 
-.card {
+/* .card {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-basis: 100px;
   flex-shrink: 1;
   transition: flex-grow 0.3s ease-in-out;
-  order: 0; /* Order of elements */
+  order: 0;
 }
 
 .card:hover {
-  flex-shrink: 0; /* This is working only with sets nowrap!!! */
-}
+  flex-shrink: 0;
+} */
 
