@@ -27,6 +27,19 @@ header h2 {
   color: #0ce97a;
 }
 
+h2 {
+  color: #eee;
+}
+
+h3 {
+  color: #888;
+}
+
+h4 {
+  color:#ff0000;
+  font-weight: normal;
+}
+
 .info {
   width: 70%;
   margin: 50px auto 20px;
