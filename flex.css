@@ -26,6 +26,11 @@
   flex-direction: column-reverse;
 }
 
+.four {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
