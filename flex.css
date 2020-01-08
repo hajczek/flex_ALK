@@ -183,6 +183,15 @@
   justify-content: center;
 }
 
+.twenty-eight {
+  display: flex;
+}
+
+.twenty-eight .card:nth-child(3) {
+  display: flex;
+  flex-basis: 300px;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
