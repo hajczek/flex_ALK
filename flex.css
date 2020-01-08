@@ -64,6 +64,12 @@
   justify-content: flex-end;
 }
 
+.eleven {  
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
