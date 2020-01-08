@@ -174,6 +174,15 @@
   justify-content: flex-end;
 }
 
+.twenty-seven {
+  display: flex;
+}
+
+.twenty-seven .card {
+  display: flex;
+  justify-content: center;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
