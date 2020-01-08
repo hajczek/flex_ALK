@@ -101,6 +101,11 @@
   height: 500px;
 }
 
+.seventeen {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
