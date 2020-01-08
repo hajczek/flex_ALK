@@ -1,29 +1,27 @@
-body {
-  /* display: flex; */
-  /* flex-direction - sets mine axis */
-  flex-direction: row; /* display elements in row */
-  /* flex-direction: column; display elements in columns */
-  /* flex-direction: column-reverse; Displays elements with reverse order */
-  flex-wrap: wrap; /* Without goes elements to another line when screen width is small */
-  /* flex-wrap: wrap; With goes wlwmwnts to another line when screen width is small */
-  justify-content: center; /* Another options for this set are: flex-end; flex-start; space-between; space-around; space-evenly */
-  align-content: flex-start; /* Another options for this set are: flex-end - this is working only with nowrap; center - this is working only with nowrap; */
-}
+
+  /* FLEX OPTIONS:
+  display: flex;
+  flex-direction: row, column, columnpreverse, row-reverse; (sets main axis)
+  flex-wrap: wrap, nowrap;
+  justify-content: center; flex-end; flex-start; space-between; space-around; space-evenly;
+  align-content: flex-start; flex-end; center; 
+  flex-basis: ; (base size for element)
+  flex-grow: ;
+  flex-shrink: ;
+  */
+
 
 .card {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-basis: 100px; /* Base size for element */
-  /* flex-grow: 0; */
+  flex-basis: 100px;
   flex-shrink: 1;
   transition: flex-grow 0.3s ease-in-out;
-  /* transition: flex-shrink 0.3s ease-in-out; */
   order: 0; /* Order of elements */
 }
 
 .card:hover {
-  /* flex-grow: 2; Change size of card element after hover action on element */
   flex-shrink: 0; /* This is working only with sets nowrap!!! */
 }
 
