@@ -31,6 +31,11 @@ header h1 {
   margin: 0 auto;
 }
 
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+}
+
 .box {
   height: 400px;
   width: 70%;
