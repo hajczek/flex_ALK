@@ -66,6 +66,7 @@
   flex-direction: column;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  height: 200px; /* to make the effect more visible */
 }
 
 .seven {
