@@ -1,7 +1,7 @@
 /* FLEX OPTIONS:
 
   display: flex;
-  flex-direction: row, column, columnpreverse, row-reverse; (sets main axis)
+  flex-direction: row, column, column-reverse, row-reverse; (sets main axis)
   flex-wrap: wrap, nowrap;
   justify-content: center; flex-end; flex-start; space-between; space-around; space-evenly;
   align-content: flex-start; flex-end; center; 
@@ -19,6 +19,11 @@
 .two {
   display: flex;
   flex-direction: column;
+}
+
+.three {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 /* .card {
