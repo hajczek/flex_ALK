@@ -12,6 +12,12 @@ body {
   counter-reset: card;
 }
 
+header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
 .card {
   counter-increment: card_number;
   width: 100px;
