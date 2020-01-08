@@ -77,6 +77,11 @@
   align-content: center;
 }
 
+.thirteen {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
