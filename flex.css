@@ -16,6 +16,11 @@
   display: flex;
 }
 
+.two {
+  display: flex;
+  flex-direction: column;
+}
+
 /* .card {
   display: flex;
   justify-content: center;
